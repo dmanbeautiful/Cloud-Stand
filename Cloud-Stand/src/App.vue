@@ -1,13 +1,17 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-
+import Nav from "./components/nav/Index-Nav.vue";
 </script>
 
 <template>
-  
+  <div class="show">
+    <Nav></Nav>
+  </div>
 </template>
 
-
-
-<style>
+<style scoped>
+  .show{
+    background-color: khaki;
+    width: 1000px;
+    height: 900px;
+  }
 </style>
